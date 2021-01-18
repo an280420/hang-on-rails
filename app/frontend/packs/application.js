@@ -8,5 +8,6 @@ import Rails from "@rails/ujs"
 Rails.start()
 
 import 'bootstrap/dist/js/bootstrap'
+import  '../scripts/game'
 import '../styles/application'
 const images = require.context('../images', true)
